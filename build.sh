@@ -7,7 +7,7 @@ IMAGE_TAG="latest"
 # Build the Docker image
 echo -e "\e[32m Docker image build is started \e[0m"
 echo " "
-docker composee build  
+docker compose build  
 
 # Check if the build was successful
 if [ $? -eq 0 ]; then
