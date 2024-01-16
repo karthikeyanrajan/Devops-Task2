@@ -3,7 +3,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: Dockerfilee
+      dockerfile: Dockerfile
     container_name: reactjscontainer
     image: reactjs-demo:latest
     ports:
